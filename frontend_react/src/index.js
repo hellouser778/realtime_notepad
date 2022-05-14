@@ -5,14 +5,14 @@ import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ChakraProvider } from '@chakra-ui/react'
 
-import Dashboard from "./pages/Dashboard";
+import Maindashboard from "./pages/Maindashboard";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<Maindashboard />} />
       </Routes>
     </BrowserRouter>
     
