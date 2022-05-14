@@ -1,0 +1,27 @@
+{
+  "name": "realtime_notepad",
+  "version": "1.0.0",
+  "description": "this is the test project to learn functionality to how to make realtime live collaborative notepad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellouser778/realtime_notepad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellouser778/realtime_notepad/issues"
+  },
+  "homepage": "https://github.com/hellouser778/realtime_notepad#readme",
+  "dependencies": {
+    "bcrpyt": "^2.0.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3"
+  }
+}
