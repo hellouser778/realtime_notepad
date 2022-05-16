@@ -2,7 +2,10 @@
 const Footer = () => {
     return (
       <>
-        <h1>footer component</h1>
+      <footer class="admin__footer">
+          <span>all rights reserved </span>&nbsp;
+          <span>&copy;2018 not-e-pad co.</span>
+        </footer>
       </>
     );
   };

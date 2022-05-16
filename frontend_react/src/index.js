@@ -3,10 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ChakraProvider } from "@chakra-ui/react";
+
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 
 import Maindashboard from "./pages/Maindashboard";
-import EditorPage from "./pages/EditorPage/EditorPage";
+import EditorPage from "./pages/EditorPage/RealtimeEditor";
 import NotepadLogin from "./pages/NotepadLogin/NotepadLogin";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -16,12 +18,9 @@ root.render(
       <Routes>
         <Route path="/" element={<Maindashboard />} />
         <Route path="/login" element={<NotepadLogin />} />
-        <Route path="/editor/:roomId" element={<EditorPage />} />
+        <Route path="/RealtimeEditor" element={<EditorPage />} />
       </Routes>
     </BrowserRouter>
-
-    <ChakraProvider>
-      <App />
-    </ChakraProvider>
+    <App />
   </React.StrictMode>
 );
